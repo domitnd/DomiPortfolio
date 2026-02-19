@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominique Turatsinze - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <nav class="main-nav">
+    <div class="nav-container">
+        <a href="index.html" class="active">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="skills.html">SKILLS</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="calculator.html">GPA CALC</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">CONTACT</a>
+        
+        <!-- Add this theme toggle in the nav -->
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider"></div>
+            </label>
+        </div>
+    </div>
+</nav>
+
+    <main class="contact-page">
+        <div class="greeting-container" id="greeting"></div>
+        
+        <h1 class="page-title">Get In Touch</h1>
+
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                
+                <div class="info-cards">
+                    <a href="domiquickbook@gmail.com">
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <h3>Email</h3>
+                    </div>
+                </a>
+<a href="https://github.com/domitnd" class="info-link">
+                    <div class="info-card">
+                        <div class="info-icon">💻</div>
+                        <h3>GitHub</h3>
+                    </div>
+                    </a>
+<a href="https://www.linkedin.com/in/turatsinze-dominique-248436291/" class="info-link">
+                    <div class="info-card">
+                        <div class="info-icon">🔗</div>
+                        <h3>LinkedIn</h3>            
+                    </div>
+                    </a>
+                </div>
+
+                <div class="availability">
+                    <h3>Availability</h3>
+                    <p>📅 Open for internships and collaboration opportunities</p>
+                    <p>⏰ Response time: within 24 hours</p>
+                </div>
+            </section>
+
+            <!-- Contact Form -->
+            <section class="contact-form-section">
+                <h2>Send a Message</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Munyentwari Clement">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="mclement@gmail.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Collaboration opportunity">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="submit-btn" class="btn-primary">Send Message</button>
+                    </div>
+
+                    <div id="form-feedback" class="form-feedback"></div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="current-year"></span> TURATSINZE DOMINIQUE</p>
+        <p><span id="dynamic-date"></span></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
