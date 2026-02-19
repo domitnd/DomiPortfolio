@@ -1,0 +1,132 @@
+/* ===== SKILLS PAGE ===== */
+.skills-page {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    margin: var(--space-lg) 0;
+}
+
+.skill-category {
+    background: var(--background-card);
+    padding: var(--space-xl);
+    border-radius: var(--radius-card);
+    border: 3px solid var(--primary-medium);
+}
+
+.skill-category h2 {
+    color: var(--primary-dark);
+    font-size: 2rem;
+    margin-bottom: var(--space-lg);
+    border-left: 6px solid var(--accent-warm);
+    padding-left: var(--space-md);
+}
+
+.skills-grid-detailed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-lg);
+}
+
+.skill-card {
+    background: white;
+    padding: var(--space-md);
+    border-radius: 30px;
+    border: 2px solid var(--primary-medium);
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-sm);
+    font-weight: 600;
+}
+
+.skill-name {
+    color: var(--primary-dark);
+}
+
+.skill-level {
+    color: var(--accent-warm);
+}
+
+.progress-bar {
+    height: 20px;
+    background: #e0d6cc;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid var(--primary-medium);
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--primary-medium);
+    border-radius: 20px;
+    transition: width 0.3s;
+}
+
+/* Language Grid */
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+}
+
+.language-card {
+    background: white;
+    padding: var(--space-md);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--primary-medium);
+}
+
+.language-name {
+    font-weight: 600;
+    color: var(--primary-dark);
+}
+
+.language-badge {
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.language-badge.native {
+    background: var(--primary-medium);
+    color: white;
+}
+
+.language-badge.fluent {
+    background: var(--accent-warm);
+    color: white;
+}
+
+.language-badge.basic {
+    background: #c0b7ae;
+    color: var(--text-dark);
+}
+
+/* Tools Cloud */
+.tools-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    justify-content: center;
+}
+
+.tool-tag {
+    background: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 40px;
+    border: 2px solid var(--primary-medium);
+    font-weight: 500;
+    box-shadow: 3px 3px 0 var(--accent-warm);
+}
