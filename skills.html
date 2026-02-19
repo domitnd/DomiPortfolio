@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominique Turatsinze - Skills</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skills.css">
+</head>
+<body>
+   <nav class="main-nav">
+    <div class="nav-container">
+        <a href="index.html" class="active">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="skills.html">SKILLS</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="calculator.html">GPA CALC</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">CONTACT</a>
+        
+        <!-- Add this theme toggle in the nav -->
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider"></div>
+            </label>
+        </div>
+    </div>
+</nav>
+    <main class="skills-page">
+        <div class="greeting-container" id="greeting"></div>
+        
+        <h1 class="page-title">Technical & Language Skills</h1>
+        
+        <div class="skills-container">
+            <!-- Frontend Skills -->
+            <section class="skill-category">
+                <h2>Frontend Development</h2>
+                <div class="skills-grid-detailed">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Programming Languages -->
+            <section class="skill-category">
+                <h2>Programming Languages</h2>
+                <div class="skills-grid-detailed">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">C</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Human Languages -->
+            <section class="skill-category">
+                <h2>Human Languages</h2>
+                <div class="language-grid">
+                    <div class="language-card">
+                        <span class="language-name">Kinyarwanda</span>
+                        <span class="language-badge native">Native</span>
+                    </div>
+                    <div class="language-card">
+                        <span class="language-name">English</span>
+                        <span class="language-badge fluent">Fluent</span>
+                    </div>
+                    <div class="language-card">
+                        <span class="language-name">French</span>
+                        <span class="language-badge fluent">Fluent</span>
+                    </div>
+                    <div class="language-card">
+                        <span class="language-name">German</span>
+                        <span class="language-badge basic">Basic</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tools & Others -->
+            <section class="skill-category">
+                <h2>Tools & Technologies</h2>
+                <div class="tools-cloud">
+                    <span class="tool-tag">GitHub</span>
+                    <span class="tool-tag">VS Code</span>
+                    <span class="tool-tag">Responsive Design</span>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="current-year"></span> TURATSINZE DOMINIQUE</p>
+        <p><span id="dynamic-date"></span></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
