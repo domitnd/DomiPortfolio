@@ -92,6 +92,12 @@
     font-size: 1.2rem;
 }
 
+.fact-card img {
+    position:absolute;
+    border-radius: 40px 8px 40px 8px;
+    border: 3px solid var(--accent-warm);
+
+}
 /* Responsive */
 @media (max-width: 900px) {
     .about-content {
@@ -101,4 +107,5 @@
     .lead {
         font-size: 1.3rem;
     }
+
 }
